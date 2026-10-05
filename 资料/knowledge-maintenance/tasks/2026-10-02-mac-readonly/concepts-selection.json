@@ -1,0 +1,19 @@
+{
+  "source": "！/2026秋/09/0911 MAC/03.表示学习与自监督学习/06. 对比学习与InfoNCE.md",
+  "selection_method": "本轮 AI 阅读提取；程序复核文本出处。未声称已经完成定时自主语义抽取。",
+  "concepts": [
+    {"title":"对比学习","group":"本节方法","forms":["对比学习","contrastive learning"]},
+    {"title":"InfoNCE","group":"本节方法","forms":["InfoNCE"]},
+    {"title":"SimCLR","group":"本节方法","forms":["SimCLR"]},
+    {"title":"Softmax","group":"数学与目标","forms":["softmax"]},
+    {"title":"交叉熵","group":"数学与目标","forms":["交叉熵","cross entropy"]},
+    {"title":"相似度","group":"数学与目标","forms":["相似度","similarity"]},
+    {"title":"温度参数","group":"数学与目标","forms":["温度参数","temperature"]},
+    {"title":"正样本","group":"样本关系","forms":["正样本","positive"]},
+    {"title":"负样本","group":"样本关系","forms":["负样本","negative"]},
+    {"title":"假负样本","group":"样本关系","forms":["假负样本","false negative"],"note":"当前指对比学习中的假负样本；以后如产生歧义再讨论是否加领域限定。"},
+    {"title":"L2 归一化","group":"表示与信息","forms":["L2 归一化","L2归一化"],"reviewed_heading":"4. 表示归一化为什么如此常见","note":"规范名称来自这一节给出的除以 L2 范数的公式；不是将所有表示归一化都当成同义词。"},
+    {"title":"余弦相似度","group":"表示与信息","forms":["余弦相似度","cosine similarity"]},
+    {"title":"互信息","group":"表示与信息","forms":["互信息","mutual information"]}
+  ]
+}

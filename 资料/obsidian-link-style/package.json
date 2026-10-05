@@ -1,0 +1,25 @@
+{
+  "name": "obsidian-natural-links",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Per-note natural link styling for Obsidian, preserving formatting and navigation.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mfa114514/obsidian-natural-links.git"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "build": "npm run check && node build.mjs",
+    "test": "node --test tests/*.test.cjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "obsidian": "^1.8.7",
+    "typescript": "^5.8.0"
+  }
+}

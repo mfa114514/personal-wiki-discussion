@@ -1,0 +1,46 @@
+{
+  "generator": "knowledge-maintenance-v1",
+  "source_files": 35,
+  "intentionally_changed_files": [
+    "！/2026秋/09/0911 MAC/03.表示学习与自监督学习/06. 对比学习与InfoNCE.md"
+  ],
+  "unchanged_source_files": 34,
+  "original_course_bytes_preserved_as_prefix": true,
+  "preview_applied_and_hash_verified": true,
+  "footer_concept_links": [
+    "对比学习",
+    "InfoNCE",
+    "SimCLR",
+    "Softmax",
+    "交叉熵",
+    "相似度",
+    "温度参数",
+    "正样本",
+    "负样本",
+    "假负样本",
+    "L2 归一化",
+    "余弦相似度",
+    "互信息"
+  ],
+  "substantive_entry": "词条/InfoNCE.md",
+  "entry_sha256": "cdd6f0e1826a064de5518a784fbab58d00e9d33f82ed8ff313fd1fd809c6cddb",
+  "entry_source_links_resolved": 2,
+  "concept_relations": 12,
+  "pending_concepts": 12,
+  "missing_local_resources": 5,
+  "report_links_checked": 19,
+  "bad_report_links": [],
+  "incremental_repeat": {
+    "parsed": 0,
+    "reused": 35,
+    "concept_pages_parsed": 0,
+    "concept_pages_reused": 1,
+    "index_identical": true
+  },
+  "behavior_tests_passed_in_this_session": 20,
+  "obsidian_footer_visually_checked_in_this_session": true,
+  "obsidian_course_to_entry_click_verified": false,
+  "ui_check_limit": "UI tool reported user input in the window; stopped automated clicking and asked for user trial.",
+  "uncreated_concept_link_clicks_tested": false,
+  "git_configured": false
+}

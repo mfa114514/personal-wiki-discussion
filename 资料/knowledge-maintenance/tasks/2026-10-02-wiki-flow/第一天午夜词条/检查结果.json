@@ -1,0 +1,1006 @@
+{
+  "checked_at_local": "2026-10-04T22:03:33.231172+08:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "线性模型的初始损失",
+      "passed": true,
+      "details": {
+        "actual": 6.666666666666667,
+        "expected": 6.666666666666667,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "线性模型权重导数的数值差分",
+      "passed": true,
+      "details": {
+        "actual": -6.666666666710341,
+        "expected": -6.666666666666667,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "线性模型偏置导数的数值差分",
+      "passed": true,
+      "details": {
+        "actual": -4.000000000115023,
+        "expected": -4,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "一次更新后的权重",
+      "passed": true,
+      "details": {
+        "actual": 0.6666666666710341,
+        "expected": 0.6666666666666666,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "一次更新后的偏置",
+      "passed": true,
+      "details": {
+        "actual": 0.40000000001150227,
+        "expected": 0.4,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "更新后的预测 x=0",
+      "passed": true,
+      "details": {
+        "actual": 0.40000000001150227,
+        "expected": 0.4,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "更新后的预测 x=1",
+      "passed": true,
+      "details": {
+        "actual": 1.0666666666825364,
+        "expected": 1.0666666666666667,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "更新后的预测 x=2",
+      "passed": true,
+      "details": {
+        "actual": 1.7333333333535705,
+        "expected": 1.7333333333333334,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "一次更新后的平均损失",
+      "passed": true,
+      "details": {
+        "actual": 2.056296296258908,
+        "expected": 2.056296296296296,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "精确拟合时的训练损失",
+      "passed": true,
+      "details": {
+        "actual": 0.0,
+        "expected": 0,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "240 个样本、批大小 60、十轮训练的更新数",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "常数预测 c=0 的平方损失",
+      "passed": true,
+      "details": {
+        "actual": 27.0,
+        "expected": 27,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "常数预测 c=0 的绝对损失",
+      "passed": true,
+      "details": {
+        "actual": 3.0,
+        "expected": 3,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "常数预测 c=3 的平方损失",
+      "passed": true,
+      "details": {
+        "actual": 18.0,
+        "expected": 18,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "常数预测 c=3 的绝对损失",
+      "passed": true,
+      "details": {
+        "actual": 4.0,
+        "expected": 4,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "常数预测 c=9 的平方损失",
+      "passed": true,
+      "details": {
+        "actual": 54.0,
+        "expected": 54,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "常数预测 c=9 的绝对损失",
+      "passed": true,
+      "details": {
+        "actual": 6.0,
+        "expected": 6,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "平方损失在 c=3 的导数",
+      "passed": true,
+      "details": {
+        "actual": 0.0,
+        "expected": 0,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "绝对损失在中位数处的左右斜率",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "正确类别概率 0.51 的损失",
+      "passed": true,
+      "details": {
+        "actual": 0.6733445532637656,
+        "expected": 0.673,
+        "tolerance": 0.0005
+      }
+    },
+    {
+      "name": "正确类别概率 0.99 的损失",
+      "passed": true,
+      "details": {
+        "actual": 0.01005033585350145,
+        "expected": 0.01,
+        "tolerance": 0.0005
+      }
+    },
+    {
+      "name": "固定方差正态模型的负对数似然",
+      "passed": true,
+      "details": {
+        "actual": 1.7150838991417503,
+        "expected": 1.7150838991417503,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "共享隐层示例的前向损失",
+      "passed": true,
+      "details": {
+        "actual": 1.0,
+        "expected": 1.0,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "共享隐层示例的参数导数 w",
+      "passed": true,
+      "details": {
+        "actual": -1.999999999946489,
+        "expected": -2,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "共享隐层示例的参数导数 b",
+      "passed": true,
+      "details": {
+        "actual": -1.0000000000287557,
+        "expected": -1,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "共享隐层示例的参数导数 v1",
+      "passed": true,
+      "details": {
+        "actual": -1.4999999999321112,
+        "expected": -1.5,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "共享隐层示例的参数导数 c1",
+      "passed": true,
+      "details": {
+        "actual": -1.000000000139778,
+        "expected": -1,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "共享隐层示例的参数导数 v2",
+      "passed": true,
+      "details": {
+        "actual": -1.499999999821089,
+        "expected": -1.5,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "共享隐层示例的参数导数 c2",
+      "passed": true,
+      "details": {
+        "actual": -1.0000000000287557,
+        "expected": -1,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "第一路对共享隐层的贡献",
+      "passed": true,
+      "details": {
+        "actual": -1.9999999998077111,
+        "expected": -2,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "第二路对共享隐层的贡献",
+      "passed": true,
+      "details": {
+        "actual": 0.9999999999454889,
+        "expected": 1,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "两路贡献合并后的导数",
+      "passed": true,
+      "details": {
+        "actual": -0.9999999999177334,
+        "expected": -1,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "输入的导数",
+      "passed": true,
+      "details": {
+        "actual": -0.500000000069889,
+        "expected": -0.5,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "ReLU 负输入区域阻断这一路局部导数",
+      "passed": true,
+      "details": {
+        "actual": 0.0,
+        "expected": 0,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "多层网络递推的全部权重与偏置导数",
+      "passed": true,
+      "details": {
+        "analytical": [
+          0.03570554474202557,
+          -0.06248470329854474,
+          -0.1071166342260767,
+          -0.08958975786143812,
+          0.1567820762575167,
+          0.26876927358431435,
+          -0.08926386185506392,
+          0.22397439465359528,
+          -0.05199780414728663,
+          -0.07189584246779987,
+          0.06433006527408805,
+          0.08894729911648518,
+          -0.2634463320339974,
+          0.32592760432654716
+        ],
+        "numerical": [
+          0.035705544729203176,
+          -0.062484703300391686,
+          -0.1071166342153651,
+          -0.08958975786232948,
+          0.1567820762521377,
+          0.26876927358698843,
+          -0.08926386185076352,
+          0.2239743946488848,
+          -0.05199780415271471,
+          -0.07189584246003466,
+          0.0643300652747314,
+          0.0889472991233431,
+          -0.26344633203417844,
+          0.3259276043290904
+        ],
+        "max_error": 1.2822395922817975e-11
+      }
+    },
+    {
+      "name": "第 1 批更新前的损失",
+      "passed": true,
+      "details": {
+        "actual": 1.0,
+        "expected": 1,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "第 1 批梯度的数值差分",
+      "passed": true,
+      "details": {
+        "actual": -1.0000000000287557,
+        "expected": -1,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "第 1 批更新后的参数",
+      "passed": true,
+      "details": {
+        "actual": 0.5000000000143778,
+        "expected": 0.5,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "第 2 批更新前的损失",
+      "passed": true,
+      "details": {
+        "actual": 10.6249999999353,
+        "expected": 10.625,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "第 2 批梯度的数值差分",
+      "passed": true,
+      "details": {
+        "actual": -4.500000000184912,
+        "expected": -4.5,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "第 2 批更新后的参数",
+      "passed": true,
+      "details": {
+        "actual": 2.7500000001068337,
+        "expected": 2.75,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "一次全批更新后的参数",
+      "passed": true,
+      "details": {
+        "actual": 1.4999999999876223,
+        "expected": 1.5,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "两次小批更新后的完整数据损失",
+      "passed": true,
+      "details": {
+        "actual": 2.5312499999732916,
+        "expected": 2.53125,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "完整数据的初始损失",
+      "passed": true,
+      "details": {
+        "actual": 7.0,
+        "expected": 7,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "固定参数均匀抽样代表整体",
+      "passed": true,
+      "details": {
+        "actual": -3.0,
+        "expected": -3,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "130 个样本的末批、批数与丢弃后的覆盖",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "不同批大小的梯度按样本加权",
+      "passed": true,
+      "details": {
+        "actual": 3.658536585365854,
+        "expected": 3.659,
+        "tolerance": 0.0005
+      }
+    },
+    {
+      "name": "两个批平均等权时的不同结果",
+      "passed": true,
+      "details": {
+        "actual": 4.0,
+        "expected": 4,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "独立采样的批平均方差为单样本方差除以批大小",
+      "passed": true,
+      "details": {
+        "actual": 0.3333333333333333,
+        "expected": 0.3333333333333333,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "交叉熵第一组概率",
+      "passed": true,
+      "details": {
+        "actual": 0.35667494393873245,
+        "expected": 0.357,
+        "tolerance": 0.0005
+      }
+    },
+    {
+      "name": "交叉熵第二组概率",
+      "passed": true,
+      "details": {
+        "actual": 1.2039728043259361,
+        "expected": 1.204,
+        "tolerance": 0.0005
+      }
+    },
+    {
+      "name": "软目标的完整加权和",
+      "passed": true,
+      "details": {
+        "actual": 0.6121919007930318,
+        "expected": 0.612,
+        "tolerance": 0.0005
+      }
+    },
+    {
+      "name": "匹配时的非零交叉熵",
+      "passed": true,
+      "details": {
+        "actual": 0.5004024235381879,
+        "expected": 0.5,
+        "tolerance": 0.0005
+      }
+    },
+    {
+      "name": "均匀预测相对目标熵多出的部分",
+      "passed": true,
+      "details": {
+        "actual": 0.19274475702175742,
+        "expected": 0.193,
+        "tolerance": 0.0005
+      }
+    },
+    {
+      "name": "大得分的稳定交叉熵",
+      "passed": true,
+      "details": {
+        "actual": 0.4076059644443804,
+        "expected": 0.408,
+        "tolerance": 0.0005
+      }
+    },
+    {
+      "name": "大得分示例的第二类概率",
+      "passed": true,
+      "details": {
+        "actual": 0.6652409557748218,
+        "expected": 0.665,
+        "tolerance": 0.0005
+      }
+    },
+    {
+      "name": "共同平移保持交叉熵不变",
+      "passed": true,
+      "details": {
+        "actual": 0.4076059644443804,
+        "expected": 0.4076059644443804,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "交叉熵等于熵加 KL 散度",
+      "passed": true,
+      "details": {
+        "actual": 0.8950623223971219,
+        "expected": 0.8950623223971217,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "Softmax 交叉熵梯度分量 0",
+      "passed": true,
+      "details": {
+        "actual": 0.07887852748744706,
+        "expected": 0.07887852746649948,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "Softmax 交叉熵梯度分量 1",
+      "passed": true,
+      "details": {
+        "actual": -0.06950763720148245,
+        "expected": -0.06950763726491618,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "Softmax 交叉熵梯度分量 2",
+      "passed": true,
+      "details": {
+        "actual": -0.009370890285964606,
+        "expected": -0.00937089020158316,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "二元与两类分布的交叉熵一致，标签 0",
+      "passed": true,
+      "details": {
+        "actual": 0.4307829160924542,
+        "expected": 0.4307829160924542,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "二元与两类分布的交叉熵一致，标签 1",
+      "passed": true,
+      "details": {
+        "actual": 1.0498221244986778,
+        "expected": 1.0498221244986778,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "恰有七份原材料和五篇新词条",
+      "passed": true,
+      "details": [
+        "DNA01/00. 计划.md",
+        "DNA01/01. DNA的基本化学组成.md",
+        "MAC01/1.1 神经网络如何“学习”.md",
+        "MAC01/1.2 从一次step到完整训练过程.md",
+        "MAC01/1.3 logit 概率 交叉熵.md",
+        "MAC01/1.4 计算图、链式法则、反向传播.md",
+        "MAC01/1.5 自动微分的pytorch机制.md",
+        "词条/交叉熵.md",
+        "词条/反向传播.md",
+        "词条/小批量训练.md",
+        "词条/损失函数.md",
+        "词条/模型训练.md"
+      ]
+    },
+    {
+      "name": "原有七份材料未改动",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "排版调整保留既有属性",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "排版调整保留所有概念链接",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "本次反向传播按用户要求保持原样",
+      "passed": true,
+      "details": "f481a14413b6caa781ce4df4ecaa3ff046021902362fc2b1f6d2435f4f46f8c7"
+    },
+    {
+      "name": "其余四篇保留既有文首属性",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Markdown 与属性解析",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "name": "模型训练正文非空且可解析",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "模型训练别名没有重复或与其他页冲突",
+      "passed": true,
+      "details": [
+        "模型的训练",
+        "机器学习模型训练",
+        "模型訓練",
+        "Model training",
+        "Machine learning model training"
+      ]
+    },
+    {
+      "name": "损失函数正文非空且可解析",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "损失函数别名没有重复或与其他页冲突",
+      "passed": true,
+      "details": [
+        "損失函數",
+        "Loss function"
+      ]
+    },
+    {
+      "name": "反向传播正文非空且可解析",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "反向传播别名没有重复或与其他页冲突",
+      "passed": true,
+      "details": [
+        "反向传播算法",
+        "误差反向传播",
+        "反传",
+        "反向傳播",
+        "Backpropagation",
+        "Back propagation",
+        "Back-propagation",
+        "Backprop"
+      ]
+    },
+    {
+      "name": "小批量训练正文非空且可解析",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "小批量训练别名没有重复或与其他页冲突",
+      "passed": true,
+      "details": [
+        "小批次训练",
+        "小批训练",
+        "小批量訓練",
+        "Mini-batch training",
+        "Mini batch training",
+        "Minibatch training"
+      ]
+    },
+    {
+      "name": "交叉熵正文非空且可解析",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "交叉熵别名没有重复或与其他页冲突",
+      "passed": true,
+      "details": [
+        "Cross entropy",
+        "Cross-entropy",
+        "CE"
+      ]
+    },
+    {
+      "name": "本轮暂不包含外部链接或资料链接",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "正向概念链接均到独立页面",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "已选链接显示词的正文重复标记",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "正文的 Wiki Link 与行内公式完整解析",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "MathJax 定界符完整",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "绝对误差公式完整解析，竖线未被误识别为表格列",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "五个词条承接既有课程链接",
+      "passed": true,
+      "details": [
+        {
+          "kind": "wiki",
+          "target": "反向传播",
+          "label": "反向传播",
+          "line": 156,
+          "heading": "中间激活 Activation",
+          "embed": false
+        },
+        {
+          "kind": "wiki",
+          "target": "损失函数",
+          "label": "损失函数",
+          "line": 200,
+          "heading": "3. 为什么还需要一个 Loss",
+          "embed": false
+        },
+        {
+          "kind": "wiki",
+          "target": "反向传播",
+          "label": "反向传播",
+          "line": 506,
+          "heading": "6. Backward 到底做了什么",
+          "embed": false
+        },
+        {
+          "kind": "wiki",
+          "target": "反向传播",
+          "label": "反向传播",
+          "line": 549,
+          "heading": "6. Backward 到底做了什么",
+          "embed": false
+        },
+        {
+          "kind": "wiki",
+          "target": "模型训练",
+          "label": "训练",
+          "line": 675,
+          "heading": "训练阶段与推理阶段已经可以第一次区分",
+          "embed": false
+        },
+        {
+          "kind": "wiki",
+          "target": "小批量训练",
+          "label": "小批量训练",
+          "line": 125,
+          "heading": "Mini-batch",
+          "embed": false
+        },
+        {
+          "kind": "wiki",
+          "target": "反向传播",
+          "label": "backward",
+          "line": 143,
+          "heading": "Step：一步参数更新",
+          "embed": false
+        },
+        {
+          "kind": "wiki",
+          "target": "交叉熵",
+          "label": "cross entropy",
+          "line": 591,
+          "heading": "6. Cross Entropy 与 NLL 为什么经常看起来是同一个东西",
+          "embed": false
+        },
+        {
+          "kind": "wiki",
+          "target": "交叉熵",
+          "label": "交叉熵",
+          "line": 613,
+          "heading": "6. Cross Entropy 与 NLL 为什么经常看起来是同一个东西",
+          "embed": false
+        },
+        {
+          "kind": "wiki",
+          "target": "交叉熵",
+          "label": "cross entropy",
+          "line": 684,
+          "heading": "6. Cross Entropy 与 NLL 为什么经常看起来是同一个东西",
+          "embed": false
+        },
+        {
+          "kind": "wiki",
+          "target": "交叉熵",
+          "label": "cross entropy",
+          "line": 992,
+          "heading": "8. Softmax + Cross Entropy 有一个非常漂亮的梯度",
+          "embed": false
+        }
+      ]
+    },
+    {
+      "name": "Git 日间基线之后只有三篇既有加链和五篇新增",
+      "passed": true,
+      "details": {
+        "previous_link_edits": [
+          "MAC01/1.1 神经网络如何“学习”.md",
+          "MAC01/1.2 从一次step到完整训练过程.md",
+          "MAC01/1.3 logit 概率 交叉熵.md"
+        ],
+        "new_concept_pages": [
+          "词条/交叉熵.md",
+          "词条/反向传播.md",
+          "词条/小批量训练.md",
+          "词条/损失函数.md",
+          "词条/模型训练.md"
+        ]
+      }
+    },
+    {
+      "name": "Git 没有新增提交或真实暂存",
+      "passed": true,
+      "details": {
+        "head": "224fc771f170f609415409c150ba78a8ed9c66f0",
+        "staged": []
+      }
+    },
+    {
+      "name": "Git 从五篇首稿至当前变化只涉及五篇词条",
+      "passed": true,
+      "details": {
+        "changed": [
+          "词条/交叉熵.md",
+          "词条/反向传播.md",
+          "词条/小批量训练.md",
+          "词条/损失函数.md",
+          "词条/模型训练.md"
+        ],
+        "untracked": []
+      }
+    },
+    {
+      "name": "首稿 Git 对象仍可恢复",
+      "passed": true,
+      "details": "94d5aee3569c70ea566955b8a5258d53dfa8a371"
+    },
+    {
+      "name": "Git 从反向传播重写前至当前仅涉及五篇词条",
+      "passed": true,
+      "details": {
+        "changed": [
+          "词条/交叉熵.md",
+          "词条/反向传播.md",
+          "词条/小批量训练.md",
+          "词条/损失函数.md",
+          "词条/模型训练.md"
+        ],
+        "untracked": []
+      }
+    },
+    {
+      "name": "Git 本次重写只涉及其他四篇",
+      "passed": true,
+      "details": {
+        "changed": [
+          "词条/交叉熵.md",
+          "词条/小批量训练.md",
+          "词条/损失函数.md",
+          "词条/模型训练.md"
+        ],
+        "untracked": []
+      }
+    },
+    {
+      "name": "四篇重写前的文件树仍可读取",
+      "passed": true,
+      "details": "61abc688bfccd2bdee40fd3872a8b62ad63564e7"
+    },
+    {
+      "name": "Git 索引保持原样",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "pages": [
+    {
+      "path": "词条/模型训练.md",
+      "sha256": "2a92e507025116e6321d6ebdc84ea7572edc5ab17374b14c6cfdbb9f21bfdfa3",
+      "aliases": [
+        "模型的训练",
+        "机器学习模型训练",
+        "模型訓練",
+        "Model training",
+        "Machine learning model training"
+      ],
+      "wiki_links": 71,
+      "display_math_blocks": 4
+    },
+    {
+      "path": "词条/损失函数.md",
+      "sha256": "301dbe1065c7293e669783c9a1268f0b1c7b3315629f67809ee4ae0032af6d5c",
+      "aliases": [
+        "損失函數",
+        "Loss function"
+      ],
+      "wiki_links": 58,
+      "display_math_blocks": 7
+    },
+    {
+      "path": "词条/反向传播.md",
+      "sha256": "f481a14413b6caa781ce4df4ecaa3ff046021902362fc2b1f6d2435f4f46f8c7",
+      "aliases": [
+        "反向传播算法",
+        "误差反向传播",
+        "反传",
+        "反向傳播",
+        "Backpropagation",
+        "Back propagation",
+        "Back-propagation",
+        "Backprop"
+      ],
+      "wiki_links": 77,
+      "display_math_blocks": 15
+    },
+    {
+      "path": "词条/小批量训练.md",
+      "sha256": "af91e318b07b3fc60ef2ad2c19ef8b39cebe870a1d9c926e7a53175548aa24ae",
+      "aliases": [
+        "小批次训练",
+        "小批训练",
+        "小批量訓練",
+        "Mini-batch training",
+        "Mini batch training",
+        "Minibatch training"
+      ],
+      "wiki_links": 68,
+      "display_math_blocks": 4
+    },
+    {
+      "path": "词条/交叉熵.md",
+      "sha256": "1eeb4b21f2844acc8d608a34757a8e0a6e56449d5812188be31a656c758dc3c7",
+      "aliases": [
+        "Cross entropy",
+        "Cross-entropy",
+        "CE"
+      ],
+      "wiki_links": 43,
+      "display_math_blocks": 10
+    }
+  ],
+  "original_course_links": {
+    "positions": 123,
+    "targets": 86,
+    "now_resolved_positions": 11
+  },
+  "revision_baseline_tree": "94d5aee3569c70ea566955b8a5258d53dfa8a371",
+  "subject_rewrite_baseline_tree": "7446eb0ce1515e02358b09543f8e4ab0494c7b10",
+  "four_rewrite_baseline_tree": "61abc688bfccd2bdee40fd3872a8b62ad63564e7",
+  "preserved_backprop_sha256": "f481a14413b6caa781ce4df4ecaa3ff046021902362fc2b1f6d2435f4f46f8c7",
+  "layout_before_blob": "31efd4ec06543fb5aa4a5bff1a0da7a94d777ae2",
+  "limits": [
+    "未操作 Obsidian 界面",
+    "别名是否完全同义及解释深度仍需要语义阅读判断",
+    "重复提及检查只复核已选择的显示词，不替代语义阅读",
+    "仅针对本轮文件状态，之后编辑应更新检查依据"
+  ]
+}

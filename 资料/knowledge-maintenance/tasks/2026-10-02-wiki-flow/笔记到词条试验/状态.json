@@ -1,0 +1,12 @@
+{
+  "completed": 0,
+  "pending": {
+    "step": 1,
+    "source": "1.1 神经网络如何“学习”.md",
+    "start": 1,
+    "end": 326,
+    "source_sha256": "907f8d75b5bfa8d4804d87736fc3b3aab767f2cf695af987b0e865b3a126606d",
+    "input_sha256": "bce8a2e2c31317ed690d2a013723e0f517856e9deccc1db8e1193b99bb8b6b7d"
+  },
+  "steps": []
+}

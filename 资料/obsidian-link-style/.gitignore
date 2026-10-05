@@ -1,0 +1,6 @@
+node_modules/
+dist/
+tasks/
+.obsidian/
+*.log
+.DS_Store

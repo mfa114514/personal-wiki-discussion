@@ -1,0 +1,124 @@
+/* Scope every rule to an opted-in Markdown view. No body/global link overrides. */
+.nlf-note.nlf-internal :is(.markdown-rendered a.internal-link,
+  .markdown-source-view .cm-hmd-internal-link,
+  .markdown-source-view .cm-hmd-internal-link .cm-underline),
+.nlf-note.nlf-external :is(.markdown-rendered a.external-link,
+  .markdown-source-view .cm-link,
+  .markdown-source-view .cm-url,
+  .markdown-source-view :is(.cm-link, .cm-url) .cm-underline) {
+  color: inherit !important;
+  font-family: inherit !important;
+  opacity: 1 !important;
+}
+
+/* Reading view has real strong/em parents: inherit their existing typography. */
+.nlf-note.nlf-internal .markdown-rendered a.internal-link,
+.nlf-note.nlf-external .markdown-rendered a.external-link {
+  font-weight: inherit !important;
+  font-style: inherit !important;
+  -webkit-text-fill-color: inherit !important;
+}
+
+/* Retain formatting inside Markdown link labels as well as around a link. */
+.nlf-note.nlf-internal .markdown-rendered a.internal-link strong,
+.nlf-note.nlf-external .markdown-rendered a.external-link strong {
+  color: var(--accent-strong, var(--bold-color, inherit)) !important;
+}
+.nlf-note.nlf-internal .markdown-rendered a.internal-link em,
+.nlf-note.nlf-external .markdown-rendered a.external-link em {
+  color: var(--accent-em, var(--italic-color, inherit)) !important;
+}
+
+/* CM6 uses sibling tokens, not strong/em parents. Preserve its format classes. */
+.nlf-note.nlf-internal .markdown-source-view .cm-hmd-internal-link.cm-strong,
+.nlf-note.nlf-external .markdown-source-view :is(.cm-link, .cm-url).cm-strong {
+  color: var(--accent-strong, var(--bold-color, inherit)) !important;
+  font-family: var(--font-family-strong, inherit) !important;
+}
+.nlf-note.nlf-internal .markdown-source-view .cm-hmd-internal-link.cm-em,
+.nlf-note.nlf-external .markdown-source-view :is(.cm-link, .cm-url).cm-em {
+  color: var(--accent-em, var(--italic-color, inherit)) !important;
+  font-family: var(--font-family-em, inherit) !important;
+}
+
+.nlf-note.nlf-internal .markdown-source-view .cm-hmd-internal-link .cm-underline,
+.nlf-note.nlf-external .markdown-source-view :is(.cm-link, .cm-url) .cm-underline {
+  -webkit-text-fill-color: inherit !important;
+}
+
+/* Scope unresolved-link theme variables to this opted-in editor as well. */
+.nlf-note.nlf-internal .markdown-source-view {
+  --unresolved-link: var(--text-normal);
+  --link-unresolved-color: var(--text-normal);
+  --link-unresolved-opacity: 1;
+}
+body .nlf-note.nlf-note.nlf-internal .markdown-source-view.mod-cm6 .is-unresolved,
+body .nlf-note.nlf-note.nlf-internal .markdown-source-view.mod-cm6 .is-unresolved .cm-underline,
+body .nlf-note.nlf-note.nlf-internal .markdown-source-view.mod-cm6 .cm-hmd-internal-link.is-unresolved .cm-underline {
+  color: inherit !important;
+  opacity: 1 !important;
+}
+
+/* Preserve the combined format's own family instead of the italic-only one. */
+.nlf-note.nlf-internal .markdown-source-view .cm-hmd-internal-link.cm-strong.cm-em,
+.nlf-note.nlf-external .markdown-source-view :is(.cm-link, .cm-url).cm-strong.cm-em {
+  font-family: var(--font-family-strong, inherit) !important;
+}
+
+/* Activate only when the theme actually supplies this gradient. Never make
+   text transparent in themes whose bold+italic has a solid color. */
+.nlf-note.nlf-gradient-strong-em.nlf-internal .markdown-source-view .cm-hmd-internal-link.cm-strong.cm-em {
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* A theme may apply heading colors directly to tokens. */
+.nlf-note.nlf-internal .markdown-source-view .cm-hmd-internal-link.cm-header-1,
+.nlf-note.nlf-external .markdown-source-view :is(.cm-link, .cm-url).cm-header-1 { color: var(--h1-color, inherit) !important; }
+.nlf-note.nlf-internal .markdown-source-view .cm-hmd-internal-link.cm-header-2,
+.nlf-note.nlf-external .markdown-source-view :is(.cm-link, .cm-url).cm-header-2 { color: var(--h2-color, inherit) !important; }
+.nlf-note.nlf-internal .markdown-source-view .cm-hmd-internal-link.cm-header-3,
+.nlf-note.nlf-external .markdown-source-view :is(.cm-link, .cm-url).cm-header-3 { color: var(--h3-color, inherit) !important; }
+.nlf-note.nlf-internal .markdown-source-view .cm-hmd-internal-link.cm-header-4,
+.nlf-note.nlf-external .markdown-source-view :is(.cm-link, .cm-url).cm-header-4 { color: var(--h4-color, inherit) !important; }
+.nlf-note.nlf-internal .markdown-source-view .cm-hmd-internal-link.cm-header-5,
+.nlf-note.nlf-external .markdown-source-view :is(.cm-link, .cm-url).cm-header-5 { color: var(--h5-color, inherit) !important; }
+.nlf-note.nlf-internal .markdown-source-view .cm-hmd-internal-link.cm-header-6,
+.nlf-note.nlf-external .markdown-source-view :is(.cm-link, .cm-url).cm-header-6 { color: var(--h6-color, inherit) !important; }
+
+/* Only change link underline, leaving formatting such as strikethrough intact. */
+.nlf-note:is(.nlf-hide, .nlf-hover).nlf-internal :is(.markdown-rendered a.internal-link,
+  .markdown-source-view .cm-hmd-internal-link,
+  .markdown-source-view .cm-hmd-internal-link .cm-underline),
+.nlf-note:is(.nlf-hide, .nlf-hover).nlf-external :is(.markdown-rendered a.external-link,
+  .markdown-source-view .cm-link,
+  .markdown-source-view .cm-url,
+  .markdown-source-view :is(.cm-link, .cm-url) .cm-underline) {
+  text-decoration-line: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+.nlf-note.nlf-hover.nlf-internal :is(.markdown-rendered a.internal-link:hover,
+  .markdown-source-view .cm-hmd-internal-link:hover .cm-underline),
+.nlf-note.nlf-hover.nlf-external :is(.markdown-rendered a.external-link:hover,
+  .markdown-source-view :is(.cm-link, .cm-url):hover .cm-underline) {
+  text-decoration-line: underline !important;
+  text-decoration-color: currentColor !important;
+  text-underline-offset: 0.15em;
+}
+
+/* A line-through on a CM token must not be cleared by hiding its underline. */
+.nlf-note:is(.nlf-hide, .nlf-hover).nlf-internal .markdown-source-view .cm-hmd-internal-link.cm-strikethrough,
+.nlf-note:is(.nlf-hide, .nlf-hover).nlf-external .markdown-source-view :is(.cm-link, .cm-url).cm-strikethrough {
+  text-decoration-line: line-through !important;
+}
+.nlf-note.nlf-hover.nlf-internal .markdown-source-view .cm-hmd-internal-link.cm-strikethrough:hover .cm-underline,
+.nlf-note.nlf-hover.nlf-external .markdown-source-view :is(.cm-link, .cm-url).cm-strikethrough:hover .cm-underline {
+  text-decoration-line: underline !important;
+}
+
+.nlf-note.nlf-external.nlf-hide-icon :is(.markdown-rendered a.external-link,
+  .markdown-source-view .external-link) {
+  background-image: none !important;
+  padding-inline-end: 0 !important;
+}

@@ -1,0 +1,9 @@
+{
+  "id": "natural-links",
+  "name": "自然链接",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "按笔记选择让链接跟随普通文字的颜色和字体，保留原有格式与跳转。",
+  "author": "mfa",
+  "isDesktopOnly": false
+}

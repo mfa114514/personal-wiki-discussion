@@ -1,0 +1,1175 @@
+{
+  "snapshot_created_utc": "2026-10-05T15:47:26.875568+00:00",
+  "visibility_requested": "private",
+  "purpose": "只读研究与讨论；不是实际维护库或可运行系统交付",
+  "original_pilot_commit": "224fc771f170f609415409c150ba78a8ed9c66f0",
+  "original_pilot_index_sha256": "a77c5d098c7dbe2cf76b93d49c1d340bb83b1225d0d18b924ac8b8ae1715e8cb",
+  "copied_existing_file_count": 120,
+  "generated_file_count_excluding_manifest": 9,
+  "files": [
+    {
+      "path": "资料/knowledge-maintenance/README.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/README.md",
+      "status": "current_project",
+      "purpose": "维护项目入口、实际代码、检查预期与当前成果说明",
+      "bytes": 11678,
+      "sha256": "1b0e6ce83164b9f0cacb4ca00eff762017786880d783f4ac881381cea17b0ca7"
+    },
+    {
+      "path": "资料/knowledge-maintenance/AGENTS.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/AGENTS.md",
+      "status": "current_project",
+      "purpose": "维护项目入口、实际代码、检查预期与当前成果说明",
+      "bytes": 584,
+      "sha256": "f9138668e0aed58448872d191a24c391b2dbc7a7bce2dbd60f5e8bb10f3c1d6a"
+    },
+    {
+      "path": "资料/knowledge-maintenance/.gitignore",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/.gitignore",
+      "status": "current_project",
+      "purpose": "维护项目入口、实际代码、检查预期与当前成果说明",
+      "bytes": 47,
+      "sha256": "5c4d00dad894d98ff4047dc8b6ac2c72ea8787440ebd56d30cd8ea9423b38b12"
+    },
+    {
+      "path": "资料/knowledge-maintenance/analyze.py",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/analyze.py",
+      "status": "current_project",
+      "purpose": "维护项目入口、实际代码、检查预期与当前成果说明",
+      "bytes": 19075,
+      "sha256": "92185c050440d6efbcb620c82ae3e0e09ae1e4cdcb77713c7a7a77ecad2d4142"
+    },
+    {
+      "path": "资料/knowledge-maintenance/concepts.py",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/concepts.py",
+      "status": "current_project",
+      "purpose": "维护项目入口、实际代码、检查预期与当前成果说明",
+      "bytes": 3897,
+      "sha256": "5d58fc80cefbd0a5009879469b483241f5a93531f4ae198b4d865cb57759ca83"
+    },
+    {
+      "path": "资料/knowledge-maintenance/link_concepts.py",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/link_concepts.py",
+      "status": "current_project",
+      "purpose": "维护项目入口、实际代码、检查预期与当前成果说明",
+      "bytes": 5551,
+      "sha256": "05757e09120743526f383fd946caff12d258ea1c66ac0568968f365bdac33012"
+    },
+    {
+      "path": "资料/knowledge-maintenance/markdown_notes.py",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/markdown_notes.py",
+      "status": "current_project",
+      "purpose": "维护项目入口、实际代码、检查预期与当前成果说明",
+      "bytes": 7317,
+      "sha256": "96d216af4d3598fc6d86c4eecd01637987f3c2d6dab89fb5c10ee1bbe4f900a4"
+    },
+    {
+      "path": "资料/knowledge-maintenance/requirements.txt",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/requirements.txt",
+      "status": "current_project",
+      "purpose": "维护项目入口、实际代码、检查预期与当前成果说明",
+      "bytes": 72,
+      "sha256": "3a3974f80c991e06ae7c61b1c4444130026a01804fd45395918a659abf673263"
+    },
+    {
+      "path": "资料/knowledge-maintenance/run-mac.ps1",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/run-mac.ps1",
+      "status": "current_project",
+      "purpose": "维护项目入口、实际代码、检查预期与当前成果说明",
+      "bytes": 539,
+      "sha256": "8c1cd723119f9d320b948f0e1c1ed629b7d2cbf192337c62d0e9cbb0e762df3c"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tests/test_analysis.py",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tests/test_analysis.py",
+      "status": "current_project",
+      "purpose": "维护项目入口、实际代码、检查预期与当前成果说明",
+      "bytes": 7161,
+      "sha256": "cef8954694b3ff484ef0d0f103ca5b725fa726c672478cb5318c8e03ca27e52b"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tests/test_concepts.py",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tests/test_concepts.py",
+      "status": "current_project",
+      "purpose": "维护项目入口、实际代码、检查预期与当前成果说明",
+      "bytes": 7824,
+      "sha256": "62503d89d6edefb4b9dd330215db652fd6090aebc17b2aa412b56fa747fb69f5"
+    },
+    {
+      "path": "资料/knowledge-maintenance/output/正文词条出链说明.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/output/正文词条出链说明.md",
+      "status": "current_project",
+      "purpose": "维护项目入口、实际代码、检查预期与当前成果说明",
+      "bytes": 13760,
+      "sha256": "b0351d98b2d402843e8f1596e3384242a93decb2006850835ffe1b15ee0f8d32"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/README.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/README.md",
+      "status": "mixed_current_and_history",
+      "purpose": "信息流实验入口与讨论沿革",
+      "bytes": 29512,
+      "sha256": "57d579da7889b018fd955fb928ce89c8429d5ae8a8e42bfcd6e6bfc7d91c408e"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/试点起点.json",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/试点起点.json",
+      "status": "history",
+      "purpose": "试点最初材料与范围的记录",
+      "bytes": 14665,
+      "sha256": "7c9de3115a5e6020de5b1ee835fda54fa520c6182cc5b433a1b30ae29124b031"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/DNA01/00. 计划.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/DNA01/00. 计划.md",
+      "status": "pilot_snapshot",
+      "purpose": "小知识库当前课程、计划及旧五篇词条",
+      "bytes": 5840,
+      "sha256": "8f5ef8c83e06ea0d1eac954c609ca811fdf2fba5b61fa1da9e369bcd7a2d10d7"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/DNA01/01. DNA的基本化学组成.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/DNA01/01. DNA的基本化学组成.md",
+      "status": "pilot_snapshot",
+      "purpose": "小知识库当前课程、计划及旧五篇词条",
+      "bytes": 8762,
+      "sha256": "c474f88fe4a659bb789891a1ab839cda1be582d9dfcbffd1b6e008fd70bc3602"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/MAC01/1.1 神经网络如何“学习”.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/MAC01/1.1 神经网络如何“学习”.md",
+      "status": "pilot_snapshot",
+      "purpose": "小知识库当前课程、计划及旧五篇词条",
+      "bytes": 13441,
+      "sha256": "907f8d75b5bfa8d4804d87736fc3b3aab767f2cf695af987b0e865b3a126606d"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/MAC01/1.2 从一次step到完整训练过程.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/MAC01/1.2 从一次step到完整训练过程.md",
+      "status": "pilot_snapshot",
+      "purpose": "小知识库当前课程、计划及旧五篇词条",
+      "bytes": 16215,
+      "sha256": "93facab0c9a6f3bd6043a35f9a11f977c2aac855a0101f629709c658166135fd"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/MAC01/1.3 logit 概率 交叉熵.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/MAC01/1.3 logit 概率 交叉熵.md",
+      "status": "pilot_snapshot",
+      "purpose": "小知识库当前课程、计划及旧五篇词条",
+      "bytes": 15240,
+      "sha256": "1c8e9eb1f2ddd053808a64b5d24cb17d23cfb7dc439d079eb4a3f3c267d831c4"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/MAC01/1.4 计算图、链式法则、反向传播.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/MAC01/1.4 计算图、链式法则、反向传播.md",
+      "status": "pilot_snapshot",
+      "purpose": "小知识库当前课程、计划及旧五篇词条",
+      "bytes": 14109,
+      "sha256": "cd9031f5261fd8c9290425f30956a4ed363f96a8156067b6d4aae09233571bcb"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/MAC01/1.5 自动微分的pytorch机制.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/MAC01/1.5 自动微分的pytorch机制.md",
+      "status": "pilot_snapshot",
+      "purpose": "小知识库当前课程、计划及旧五篇词条",
+      "bytes": 12808,
+      "sha256": "a48cd460f995ef1b6f0cf400cb75c5db311f57072ff5d82ec4c63e92eb0e739a"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/词条/交叉熵.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/词条/交叉熵.md",
+      "status": "pilot_snapshot",
+      "purpose": "小知识库当前课程、计划及旧五篇词条",
+      "bytes": 9492,
+      "sha256": "1eeb4b21f2844acc8d608a34757a8e0a6e56449d5812188be31a656c758dc3c7"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/词条/反向传播.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/词条/反向传播.md",
+      "status": "pilot_snapshot",
+      "purpose": "小知识库当前课程、计划及旧五篇词条",
+      "bytes": 15851,
+      "sha256": "f481a14413b6caa781ce4df4ecaa3ff046021902362fc2b1f6d2435f4f46f8c7"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/词条/小批量训练.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/词条/小批量训练.md",
+      "status": "pilot_snapshot",
+      "purpose": "小知识库当前课程、计划及旧五篇词条",
+      "bytes": 9047,
+      "sha256": "014f89090f62181907635815cecc3b02099a1404f064272be83769ac1f7d28f8"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/词条/损失函数.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/词条/损失函数.md",
+      "status": "pilot_snapshot",
+      "purpose": "小知识库当前课程、计划及旧五篇词条",
+      "bytes": 11359,
+      "sha256": "301dbe1065c7293e669783c9a1268f0b1c7b3315629f67809ee4ae0032af6d5c"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/词条/模型训练.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/小知识库/词条/模型训练.md",
+      "status": "pilot_snapshot",
+      "purpose": "小知识库当前课程、计划及旧五篇词条",
+      "bytes": 10403,
+      "sha256": "2a92e507025116e6321d6ebdc84ea7572edc5ab17374b14c6cfdbb9f21bfdfa3"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/README.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/README.md",
+      "status": "completed_fusion_trial",
+      "purpose": "已完成的逐次输入、融合版本与判断记录",
+      "bytes": 10172,
+      "sha256": "a7e46063e0db1c2f1f4fae761331d95c29d115ce07b63912e73bd5074817224f"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/梯度下降.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/梯度下降.md",
+      "status": "completed_fusion_trial",
+      "purpose": "已完成的逐次输入、融合版本与判断记录",
+      "bytes": 7123,
+      "sha256": "50110f0832664ede98bc6e60a998e196dfd600c3bda313554938f413eacf3a44"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/版本/01.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/版本/01.md",
+      "status": "completed_fusion_trial",
+      "purpose": "已完成的逐次输入、融合版本与判断记录",
+      "bytes": 2303,
+      "sha256": "00ea8e6c08d5ce844e6b271099ce398b2bab9783e2cde57726bd8f303e5195c5"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/版本/02.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/版本/02.md",
+      "status": "completed_fusion_trial",
+      "purpose": "已完成的逐次输入、融合版本与判断记录",
+      "bytes": 2622,
+      "sha256": "07210c5bf49357dfd39208de8b8164cf3ec05848b61329d0698649d154c6ce9a"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/版本/03.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/版本/03.md",
+      "status": "completed_fusion_trial",
+      "purpose": "已完成的逐次输入、融合版本与判断记录",
+      "bytes": 4413,
+      "sha256": "25427281a6e3a6db87ca7da7f3174b9192158010425ebeeba45c194b98fede3e"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/版本/04.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/版本/04.md",
+      "status": "completed_fusion_trial",
+      "purpose": "已完成的逐次输入、融合版本与判断记录",
+      "bytes": 5255,
+      "sha256": "5feb297893dec9b8e839ccd9e65b0d20d365ecffbf5771f34b4680972ca92289"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/版本/05.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/版本/05.md",
+      "status": "completed_fusion_trial",
+      "purpose": "已完成的逐次输入、融合版本与判断记录",
+      "bytes": 7123,
+      "sha256": "50110f0832664ede98bc6e60a998e196dfd600c3bda313554938f413eacf3a44"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/输入/01.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/输入/01.md",
+      "status": "completed_fusion_trial",
+      "purpose": "已完成的逐次输入、融合版本与判断记录",
+      "bytes": 2190,
+      "sha256": "a601a10ae778df9c516870f7d23c730c4800f9df0a92c2ffabaac66646b202db"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/输入/02.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/输入/02.md",
+      "status": "completed_fusion_trial",
+      "purpose": "已完成的逐次输入、融合版本与判断记录",
+      "bytes": 665,
+      "sha256": "ee4fbb12a8ed0a2785e59350bac7058f13ebdeeca99798c4dfe5475f36e9bdd0"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/输入/03.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/输入/03.md",
+      "status": "completed_fusion_trial",
+      "purpose": "已完成的逐次输入、融合版本与判断记录",
+      "bytes": 2459,
+      "sha256": "1d8e0a0c5702d459040aaab1ba26df5109d232fd04d8f26fd9e438e813ce8dea"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/输入/04.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/输入/04.md",
+      "status": "completed_fusion_trial",
+      "purpose": "已完成的逐次输入、融合版本与判断记录",
+      "bytes": 1388,
+      "sha256": "44a5f40306400278a5dc2411570cc33ac992e549d4762b687925ae57d66a7ff0"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/输入/05.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/逐步融合试验/输入/05.md",
+      "status": "completed_fusion_trial",
+      "purpose": "已完成的逐次输入、融合版本与判断记录",
+      "bytes": 1880,
+      "sha256": "52965c61bee63097d613d335bd5a70df895386055009309905bdf725e21ea4ed"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/笔记到词条试验/README.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/笔记到词条试验/README.md",
+      "status": "pending_trial",
+      "purpose": "未完成的下一轮：第一块输入、状态和步骤保存代码",
+      "bytes": 2187,
+      "sha256": "dd4459e1bc1ade3aa5c16d21ad645eefca6fb2526d3b2e9f5b06f4ba59dd48e3"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/笔记到词条试验/流程.py",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/笔记到词条试验/流程.py",
+      "status": "pending_trial",
+      "purpose": "未完成的下一轮：第一块输入、状态和步骤保存代码",
+      "bytes": 3256,
+      "sha256": "2f46119823054eb0896e3477e8744674ef0b0845e4cac8aa929a1f1709d881d3"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/笔记到词条试验/状态.json",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/笔记到词条试验/状态.json",
+      "status": "pending_trial",
+      "purpose": "未完成的下一轮：第一块输入、状态和步骤保存代码",
+      "bytes": 334,
+      "sha256": "7eec753953cf7120f02aefa38de480182cf367402565d6020c5c64a90fab1527"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/笔记到词条试验/输入/01.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/笔记到词条试验/输入/01.md",
+      "status": "pending_trial",
+      "purpose": "未完成的下一轮：第一块输入、状态和步骤保存代码",
+      "bytes": 6617,
+      "sha256": "bce8a2e2c31317ed690d2a013723e0f517856e9deccc1db8e1193b99bb8b6b7d"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/第一天午夜出链/README.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/第一天午夜出链/README.md",
+      "status": "historical_link_trial",
+      "purpose": "前三篇人工选位出链及实际差异",
+      "bytes": 7839,
+      "sha256": "f942b4ae639f9c938cf0c142336d8ac460237f064f8a6cad4c8035e00be7f4f2"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/第一天午夜出链/出链.py",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/第一天午夜出链/出链.py",
+      "status": "historical_link_trial",
+      "purpose": "前三篇人工选位出链及实际差异",
+      "bytes": 13848,
+      "sha256": "4d13aacb172999aebdf7fc24a72e64eeda78925371ed03e28c1ea0735ad443b7"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/第一天午夜出链/链接修改.diff",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/第一天午夜出链/链接修改.diff",
+      "status": "historical_link_trial",
+      "purpose": "前三篇人工选位出链及实际差异",
+      "bytes": 23179,
+      "sha256": "20c05140b599ab2ba04a30246a91f12c51636b4cc6d378f8c7370ae1307f4b28"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/第一天午夜审核/README.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/第一天午夜审核/README.md",
+      "status": "historical_git_review",
+      "purpose": "已完成的 Git 日间变化审核与建议",
+      "bytes": 7115,
+      "sha256": "2dd5ace5bd7c6cc26cde9705f220e47b6a03a92d1b61d2b2f6af196697ab6350"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/第一天午夜词条/README.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/第一天午夜词条/README.md",
+      "status": "withdrawn_initialization",
+      "purpose": "旧初始化方向、阅读反馈与检查边界；路线已停止",
+      "bytes": 19620,
+      "sha256": "afa7bc4a4d36fea7c4269d317822840e9d96982146334cabcf8283a0955fcabd"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/第一天午夜词条/词条初始化说明（已撤下）.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/第一天午夜词条/词条初始化说明（已撤下）.md",
+      "status": "withdrawn_initialization",
+      "purpose": "旧初始化方向、阅读反馈与检查边界；路线已停止",
+      "bytes": 20192,
+      "sha256": "399f4e7d1cb862b231531540abb4fee6310c40635c38a92527568a67586443a2"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/第一天午夜词条/核对.py",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/第一天午夜词条/核对.py",
+      "status": "withdrawn_initialization",
+      "purpose": "旧初始化方向、阅读反馈与检查边界；路线已停止",
+      "bytes": 22038,
+      "sha256": "3c3c2fe9314e0ab5461c5705caf4881f8cebec9f37a6a40a622fc9bd98afe5cc"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/第一天午夜词条/检查结果.json",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/第一天午夜词条/检查结果.json",
+      "status": "withdrawn_initialization",
+      "purpose": "旧初始化方向、阅读反馈与检查边界；路线已停止",
+      "bytes": 25899,
+      "sha256": "b26c049f9bb59ddcd861d6b4cd1cfde43228b063a19b2ad352bd416e2581a2ab"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-mac-readonly/README.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-mac-readonly/README.md",
+      "status": "early_trial",
+      "purpose": "早期 InfoNCE 讲解、回查预览与只读分析背景",
+      "bytes": 11566,
+      "sha256": "11a809ee3ef2b67d0df836ebe926e16b9e3f598be449f606a33d9f003491d440"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-mac-readonly/LOG.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-mac-readonly/LOG.md",
+      "status": "early_trial",
+      "purpose": "早期 InfoNCE 讲解、回查预览与只读分析背景",
+      "bytes": 14227,
+      "sha256": "0c00e172bf3437eeb23476f6da172515d328405026b61f40fa97d1878eb5aec2"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-mac-readonly/检查报告.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-mac-readonly/检查报告.md",
+      "status": "early_trial",
+      "purpose": "早期 InfoNCE 讲解、回查预览与只读分析背景",
+      "bytes": 8267,
+      "sha256": "0c7e14efb7df1e2a1ea51840c98182d6648cccb12dcd59b554d6d954b5e82b7d"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-mac-readonly/InfoNCE修订讨论稿.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-mac-readonly/InfoNCE修订讨论稿.md",
+      "status": "early_trial",
+      "purpose": "早期 InfoNCE 讲解、回查预览与只读分析背景",
+      "bytes": 6520,
+      "sha256": "c10be71b7de710948bb62f205b6f1a1345266f5e1ff0532c025b387a0177c548"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-mac-readonly/InfoNCE讲解试稿.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-mac-readonly/InfoNCE讲解试稿.md",
+      "status": "early_trial",
+      "purpose": "早期 InfoNCE 讲解、回查预览与只读分析背景",
+      "bytes": 5123,
+      "sha256": "a94357492e42b132ead0a385eb5914da4284ab33c47813fd6c47f34209f49057"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-mac-readonly/InfoNCE回查预览.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-mac-readonly/InfoNCE回查预览.md",
+      "status": "early_trial",
+      "purpose": "早期 InfoNCE 讲解、回查预览与只读分析背景",
+      "bytes": 11488,
+      "sha256": "c56d26e2f4832508c37cb91f1e1ae7a0b5739290272ce0e029a908203c20f99c"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-mac-readonly/preview-infonce-backfill.py",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-mac-readonly/preview-infonce-backfill.py",
+      "status": "early_trial",
+      "purpose": "早期 InfoNCE 讲解、回查预览与只读分析背景",
+      "bytes": 7516,
+      "sha256": "415c945900a49cfa9a3b90a7464f38c5458771c88e9b16d7268008819753a138"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-mac-readonly/config.json",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-mac-readonly/config.json",
+      "status": "early_trial",
+      "purpose": "早期 InfoNCE 讲解、回查预览与只读分析背景",
+      "bytes": 116,
+      "sha256": "a4c022a12224ab7851f95c4e6ba9abdb254b9fdd486b5e532dba81f90dba1351"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-mac-readonly/concepts-selection.json",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-mac-readonly/concepts-selection.json",
+      "status": "early_trial",
+      "purpose": "早期 InfoNCE 讲解、回查预览与只读分析背景",
+      "bytes": 1683,
+      "sha256": "95c6887440cdc318c517f76a9638cb879df60ec111d024a3da0c2a358610d8ea"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-mac-readonly/source-manifest.json",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-mac-readonly/source-manifest.json",
+      "status": "early_trial",
+      "purpose": "早期 InfoNCE 讲解、回查预览与只读分析背景",
+      "bytes": 6276,
+      "sha256": "db9e13921cb4f4017b38240cafc4237575959c45ee7df198da313adfc53d0bf9"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-mac-readonly/verification.json",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-mac-readonly/verification.json",
+      "status": "early_trial",
+      "purpose": "早期 InfoNCE 讲解、回查预览与只读分析背景",
+      "bytes": 7158,
+      "sha256": "69bd9331f1184361ca65770631f7599198c72cb8dd334ac54a43370dd8fe6e90"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-mac-readonly/validation-final.json",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-mac-readonly/validation-final.json",
+      "status": "early_trial",
+      "purpose": "早期 InfoNCE 讲解、回查预览与只读分析背景",
+      "bytes": 1413,
+      "sha256": "20563841d9170ca6885fbd7cd5a66f19faae78c7a74ad841dd271dacc6206190"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/0.1 课程计划α.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/0.1 课程计划α.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 20119,
+      "sha256": "23c7d93d2b08acb6e2ef1d605bdf019ebc0e7b8455e39870cdcec159f0cc9695"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/0.2 课程计划β——AI完整版.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/0.2 课程计划β——AI完整版.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 42055,
+      "sha256": "8288e68ffff2b7f6f08965dc572ebf612ed46a2a47e0be88679fd93b613354ff"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/0.3 课程计划γ——核心版.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/0.3 课程计划γ——核心版.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 36505,
+      "sha256": "9595da5c5ca3a463d3c88c0bd8138cb494e5e409744d98db967322c5630a30ea"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/0.4 讲解prompt限制.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/0.4 讲解prompt限制.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 5532,
+      "sha256": "97ad700a2251f626d447ef0982b2958b76c6198ab7800a63e0020e871a5c56e0"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/1.1 神经网络如何“学习”.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/1.1 神经网络如何“学习”.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 13151,
+      "sha256": "46cf081c09ab7c588470d15803b1e57ca7b8417a8c60c14941db24459d9a887e"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/1.2 从一次step到完整训练过程.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/1.2 从一次step到完整训练过程.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 15758,
+      "sha256": "05487df855af4ee5ae0f27c1bec001008bf952d3dd903e57861e0e116dae995a"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/1.3 logit 概率 交叉熵.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/1.3 logit 概率 交叉熵.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 14793,
+      "sha256": "9466b04bcd7d340226ac306e2b9de327dc45b4bf4c01afe375e44f176e225267"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/1.4 计算图、链式法则、反向传播.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/1.4 计算图、链式法则、反向传播.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 14109,
+      "sha256": "cd9031f5261fd8c9290425f30956a4ed363f96a8156067b6d4aae09233571bcb"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/1.5 自动微分的pytorch机制.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/1.5 自动微分的pytorch机制.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 12808,
+      "sha256": "a48cd460f995ef1b6f0cf400cb75c5db311f57072ff5d82ec4c63e92eb0e739a"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/1.6 优化器与参数更新1.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/1.6 优化器与参数更新1.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 10069,
+      "sha256": "81d2ead80c501027a95121bc77cc70d9a95d3a4cf92798d0a6b51e341ba1a8e3"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/1.7 优化器与参数更新2.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/1.7 优化器与参数更新2.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 12295,
+      "sha256": "25b2b1d21beb275b00eb1c69c5b02c40d63b24a916672a490265c127b9181c94"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/1.8 学习率调度 warmup 梯度裁剪.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/1.8 学习率调度 warmup 梯度裁剪.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 10007,
+      "sha256": "5396246deff35f19209af6aaccdc6c26d863218db2e610c6bdaa8c906311b906"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/1.9 本章知识总结.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/1.9 本章知识总结.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 31518,
+      "sha256": "29f1ee26d0fe9410deac44067ab220dd2c5060481b9c5428a974c7fdbe5821b2"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/a1.1 环境配置.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/a1.1 环境配置.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 20705,
+      "sha256": "5813364bb979eff0ba21279573a3254d48da359b47194e4ec4ec2a86b674e0e5"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/a1.2 一张图片如何成为一个批次.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/a1.2 一张图片如何成为一个批次.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 24375,
+      "sha256": "cb6605db6b47699bc2fc435e1548cf1570fcf45a855fc043049775e848bef579"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/b1.1 求导详解.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/b1.1 求导详解.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 28345,
+      "sha256": "a1059818e399072b33b4dd66704a81f356543088c492a59f590400c6a1ce9828"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/b1.2 求导底层逻辑.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/01.学习系统与神经网络训练原理/b1.2 求导底层逻辑.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 18356,
+      "sha256": "6df864aa62f8152e5994b2989c09a29891c56c7ef64a86dc9a32d7f4f0723649"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/02.深度神经网络的核心结构机制/01. MLP、深度、非线性表示.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/02.深度神经网络的核心结构机制/01. MLP、深度、非线性表示.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 12494,
+      "sha256": "d0dc032ebb9fa93c2856cf8327cdb64ca3c775c78024fddac817757a43b9910e"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/02.深度神经网络的核心结构机制/02. 激活函数与门控机制.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/02.深度神经网络的核心结构机制/02. 激活函数与门控机制.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 12936,
+      "sha256": "39eb40f07d3f6ca7c7aa70427db41cbcef2a80f38258e771cbea071d168b84c5"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/02.深度神经网络的核心结构机制/03. 信号传播、梯度稳定性与参数初始化.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/02.深度神经网络的核心结构机制/03. 信号传播、梯度稳定性与参数初始化.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 12586,
+      "sha256": "72a165236fe8c56628b8ebf90920c03766916cb9b873a46b7bd2ee8af24573dc"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/02.深度神经网络的核心结构机制/04. Normalization的统一框架.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/02.深度神经网络的核心结构机制/04. Normalization的统一框架.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 12547,
+      "sha256": "93c0983161430dd41e748f40d0dd101a183b6766c524cb459539ec79375083a5"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/02.深度神经网络的核心结构机制/05. 残差连接与超深网络.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/02.深度神经网络的核心结构机制/05. 残差连接与超深网络.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 10669,
+      "sha256": "93586391e8d85c03ac4ab22cd89dc4a5287cd8620b3669dafab321a495ba0438"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/02.深度神经网络的核心结构机制/06. 正则化与模型泛化控制.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/02.深度神经网络的核心结构机制/06. 正则化与模型泛化控制.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 10730,
+      "sha256": "80e773ff2671e5320641d299698c530c1227dc46b877ddd0b26d58ce471235d1"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/02.深度神经网络的核心结构机制/07. 深度、宽度、参数量与计算代价.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/02.深度神经网络的核心结构机制/07. 深度、宽度、参数量与计算代价.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 10386,
+      "sha256": "86c8973dede1f0d64de21729950b06766c6712fc94f45cc70d9eb6347ae7983e"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/02.深度神经网络的核心结构机制/08. 现代深层网络块的统一视角.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/02.深度神经网络的核心结构机制/08. 现代深层网络块的统一视角.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 11626,
+      "sha256": "06687afddc53c4fb23faf3424e3cb147daa24b528f27afe23f764294e21d7766"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/03.表示学习与自监督学习/00. 计划.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/03.表示学习与自监督学习/00. 计划.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 12624,
+      "sha256": "b82b2bf21d39c9b0ed471fb2abdfc34241b7345edf44ec67582f71c23a320d2b"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/03.表示学习与自监督学习/01. 从神经网络输出到表示.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/03.表示学习与自监督学习/01. 从神经网络输出到表示.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 15699,
+      "sha256": "65d64cb2927e59e32f202b5cd1d19565ff26f9c7cb2bc5dba4d807e90618f3fa"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/03.表示学习与自监督学习/02. Embedding与离散对象的连续表示.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/03.表示学习与自监督学习/02. Embedding与离散对象的连续表示.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 14139,
+      "sha256": "dcd94f9b0303f34405373067c1ad9eb032ff2ba67ab1b667dbc39433247f6570"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/03.表示学习与自监督学习/03. 表示空间的几何结构.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/03.表示学习与自监督学习/03. 表示空间的几何结构.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 10009,
+      "sha256": "7a7805a287dbc7e3de4b829dc7c61c2850ec167d25da331c86ed72897863fce5"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/03.表示学习与自监督学习/04. 度量学习与“相似”的监督信号.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/03.表示学习与自监督学习/04. 度量学习与“相似”的监督信号.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 10281,
+      "sha256": "138617942c1b902a632adaa84920cb6ce80491bff725cf53d0eb76c0fb41bfe6"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/03.表示学习与自监督学习/05. 自监督学习的统一问题形式.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/03.表示学习与自监督学习/05. 自监督学习的统一问题形式.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 12624,
+      "sha256": "bfefe7323737080a6cc0c8f9a8e71d4ff672eb3f10f3567281884ea383894018"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/03.表示学习与自监督学习/06. 对比学习与InfoNCE.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/03.表示学习与自监督学习/06. 对比学习与InfoNCE.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 15096,
+      "sha256": "51117894e4799c78af561a93e15ffb2d7141c26837b2b47422b164ff20c7b17e"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/03.表示学习与自监督学习/07. 无负样本学习、表示坍缩、自蒸馏.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/03.表示学习与自监督学习/07. 无负样本学习、表示坍缩、自蒸馏.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 10458,
+      "sha256": "bb4e95a854458dbe47a24c222ae41c3f480472d17a9f7f041ae6eaf670e3b722"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/03.表示学习与自监督学习/08. 掩码建模、信息论、表示迁移.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/03.表示学习与自监督学习/08. 掩码建模、信息论、表示迁移.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 11569,
+      "sha256": "764c12a4b8fdcdc3feff6a6f8f778e652ce15562c4eb6e4dc96dae61ced742c6"
+    },
+    {
+      "path": "资料/！/2026秋/09/0911 MAC/03.表示学习与自监督学习/09. 总结：表示学习与自监督学习的统一框架.md",
+      "kind": "copied_existing_file",
+      "source": "！/2026秋/09/0911 MAC/03.表示学习与自监督学习/09. 总结：表示学习与自监督学习的统一框架.md",
+      "status": "original_course_scope",
+      "purpose": "早期分析实际读取的 MAC 原位置材料；不是全都完成维护",
+      "bytes": 8755,
+      "sha256": "5fcc1a0e3a86d830db195fb57cd38becb8631c6085caed961260de0143aa833b"
+    },
+    {
+      "path": "资料/词条/InfoNCE.md",
+      "kind": "copied_existing_file",
+      "source": "词条/InfoNCE.md",
+      "status": "early_use_page",
+      "purpose": "早期正式使用的 InfoNCE 页；与修订讨论稿分别保留",
+      "bytes": 5196,
+      "sha256": "cdd6f0e1826a064de5518a784fbab58d00e9d33f82ed8ff313fd1fd809c6cddb"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/试点库/DNA/01. DNA的化学组成与双螺旋结构/02. 核苷酸如何连成DNA链.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/试点库/DNA/01. DNA的化学组成与双螺旋结构/02. 核苷酸如何连成DNA链.md",
+      "status": "supplementary_dna",
+      "purpose": "DNA 试点其余材料，补充跨学科内容与关系实例",
+      "bytes": 9156,
+      "sha256": "606b3d9b7cb4c531a1ba400150e8efe6563b3efdceac145b9d74b5e5df38f3d1"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/试点库/DNA/01. DNA的化学组成与双螺旋结构/03. 碱基的电子结构与Watson-Crick配对.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/试点库/DNA/01. DNA的化学组成与双螺旋结构/03. 碱基的电子结构与Watson-Crick配对.md",
+      "status": "supplementary_dna",
+      "purpose": "DNA 试点其余材料，补充跨学科内容与关系实例",
+      "bytes": 11608,
+      "sha256": "fa5d8238dc8807a283a0c58f3dd0984c32c61dc1571ca3b3a25b736092c8e159"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/试点库/DNA/01. DNA的化学组成与双螺旋结构/04. 双链形成与反平行结构.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/试点库/DNA/01. DNA的化学组成与双螺旋结构/04. 双链形成与反平行结构.md",
+      "status": "supplementary_dna",
+      "purpose": "DNA 试点其余材料，补充跨学科内容与关系实例",
+      "bytes": 10240,
+      "sha256": "e927bc5fadb94078a2a963775ab933d7d8f16943ff9b09ca3944d019a7982af5"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/试点库/DNA/01. DNA的化学组成与双螺旋结构/05. B-DNA双螺旋的真实几何结构.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/试点库/DNA/01. DNA的化学组成与双螺旋结构/05. B-DNA双螺旋的真实几何结构.md",
+      "status": "supplementary_dna",
+      "purpose": "DNA 试点其余材料，补充跨学科内容与关系实例",
+      "bytes": 9610,
+      "sha256": "3c5c48149027395a797818fb6b05f0c1599314722027e04cbcf6cad1a00ec829"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/试点库/DNA/01. DNA的化学组成与双螺旋结构/06. 大沟、小沟、DNA序列识别.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/试点库/DNA/01. DNA的化学组成与双螺旋结构/06. 大沟、小沟、DNA序列识别.md",
+      "status": "supplementary_dna",
+      "purpose": "DNA 试点其余材料，补充跨学科内容与关系实例",
+      "bytes": 11622,
+      "sha256": "109e5fbdc2a76e7e67d9695bc5e3ced3c05705b1252cfd06ed96ec808296a070"
+    },
+    {
+      "path": "资料/knowledge-maintenance/tasks/2026-10-02-wiki-flow/试点库/DNA/01. DNA的化学组成与双螺旋结构/07. DNA双螺旋的稳定型、熔解与退火.md",
+      "kind": "copied_existing_file",
+      "source": "knowledge-maintenance/tasks/2026-10-02-wiki-flow/试点库/DNA/01. DNA的化学组成与双螺旋结构/07. DNA双螺旋的稳定型、熔解与退火.md",
+      "status": "supplementary_dna",
+      "purpose": "DNA 试点其余材料，补充跨学科内容与关系实例",
+      "bytes": 12463,
+      "sha256": "5c7457b1a28da20e0dead7a57a9543ed1b7f637405b37d0f2a3d5bdfdb4d1efa"
+    },
+    {
+      "path": "资料/obsidian-link-style/README.md",
+      "kind": "copied_existing_file",
+      "source": "obsidian-link-style/README.md",
+      "status": "independent_display_plugin",
+      "purpose": "自然链接插件的显示行为、代码与依赖",
+      "bytes": 8981,
+      "sha256": "8401555d5e827dec6b78b3f004b3d1cffce2ede126369168a0c888e18098af3d"
+    },
+    {
+      "path": "资料/obsidian-link-style/CHANGELOG.md",
+      "kind": "copied_existing_file",
+      "source": "obsidian-link-style/CHANGELOG.md",
+      "status": "independent_display_plugin",
+      "purpose": "自然链接插件的显示行为、代码与依赖",
+      "bytes": 704,
+      "sha256": "dca8cc3f1b869339eb714a2cce1961da343ac433e4c965d9689da2e1c4c55821"
+    },
+    {
+      "path": "资料/obsidian-link-style/LICENSE",
+      "kind": "copied_existing_file",
+      "source": "obsidian-link-style/LICENSE",
+      "status": "independent_display_plugin",
+      "purpose": "自然链接插件的显示行为、代码与依赖",
+      "bytes": 1066,
+      "sha256": "5d7336dea3e75eccd89a8ac6e742270b43db42953c33ac96616bd006a2c75df1"
+    },
+    {
+      "path": "资料/obsidian-link-style/.gitignore",
+      "kind": "copied_existing_file",
+      "source": "obsidian-link-style/.gitignore",
+      "status": "independent_display_plugin",
+      "purpose": "自然链接插件的显示行为、代码与依赖",
+      "bytes": 54,
+      "sha256": "584e3278305c244a3ccd6dfe3b081a854c234b925c3c73bf4b7135d3270ad3a6"
+    },
+    {
+      "path": "资料/obsidian-link-style/.gitattributes",
+      "kind": "copied_existing_file",
+      "source": "obsidian-link-style/.gitattributes",
+      "status": "independent_display_plugin",
+      "purpose": "自然链接插件的显示行为、代码与依赖",
+      "bytes": 19,
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": "资料/obsidian-link-style/build.mjs",
+      "kind": "copied_existing_file",
+      "source": "obsidian-link-style/build.mjs",
+      "status": "independent_display_plugin",
+      "purpose": "自然链接插件的显示行为、代码与依赖",
+      "bytes": 571,
+      "sha256": "4f4c68014923d250ff51fc3945e57402552114440c27e4bf137d9a4a49808c5f"
+    },
+    {
+      "path": "资料/obsidian-link-style/manifest.json",
+      "kind": "copied_existing_file",
+      "source": "obsidian-link-style/manifest.json",
+      "status": "independent_display_plugin",
+      "purpose": "自然链接插件的显示行为、代码与依赖",
+      "bytes": 263,
+      "sha256": "b9592dd3d4495953eb847a4e3511a59ffc83ba2ae1fc2abf9db0e91f32d24f1c"
+    },
+    {
+      "path": "资料/obsidian-link-style/package.json",
+      "kind": "copied_existing_file",
+      "source": "obsidian-link-style/package.json",
+      "status": "independent_display_plugin",
+      "purpose": "自然链接插件的显示行为、代码与依赖",
+      "bytes": 619,
+      "sha256": "b0fec2f10f9e7fd5f5d7b75b9c9d8fa3b2ffe4a8525240647db47f73af0bfd7e"
+    },
+    {
+      "path": "资料/obsidian-link-style/package-lock.json",
+      "kind": "copied_existing_file",
+      "source": "obsidian-link-style/package-lock.json",
+      "status": "independent_display_plugin",
+      "purpose": "自然链接插件的显示行为、代码与依赖",
+      "bytes": 19336,
+      "sha256": "5a5b91ed3db85176c2c829e1d14862045b30817a36915a1bb10ec90f764f3b8e"
+    },
+    {
+      "path": "资料/obsidian-link-style/styles.css",
+      "kind": "copied_existing_file",
+      "source": "obsidian-link-style/styles.css",
+      "status": "independent_display_plugin",
+      "purpose": "自然链接插件的显示行为、代码与依赖",
+      "bytes": 6612,
+      "sha256": "43296a738cfb10b18d01f76828c030a121fd52d7c6ceab72931d6b5c9db1ceb7"
+    },
+    {
+      "path": "资料/obsidian-link-style/tsconfig.json",
+      "kind": "copied_existing_file",
+      "source": "obsidian-link-style/tsconfig.json",
+      "status": "independent_display_plugin",
+      "purpose": "自然链接插件的显示行为、代码与依赖",
+      "bytes": 239,
+      "sha256": "dd034b32ba91e737ac4ed22ffa3b00706d47f2cd14d9c406afe47262391f6f25"
+    },
+    {
+      "path": "资料/obsidian-link-style/versions.json",
+      "kind": "copied_existing_file",
+      "source": "obsidian-link-style/versions.json",
+      "status": "independent_display_plugin",
+      "purpose": "自然链接插件的显示行为、代码与依赖",
+      "bytes": 23,
+      "sha256": "05a21302cdc4363d2e248b5b2952e7fc536adc653d6e46169e4f29bd33e557e8"
+    },
+    {
+      "path": "资料/obsidian-link-style/src/main.ts",
+      "kind": "copied_existing_file",
+      "source": "obsidian-link-style/src/main.ts",
+      "status": "independent_display_plugin",
+      "purpose": "自然链接插件的显示行为、代码与依赖",
+      "bytes": 8939,
+      "sha256": "33b2c8a4d8968b68fa76ba49512651cddf313aa85523b2bd1750118a00eebd67"
+    },
+    {
+      "path": "资料/obsidian-link-style/tests/plugin.test.cjs",
+      "kind": "copied_existing_file",
+      "source": "obsidian-link-style/tests/plugin.test.cjs",
+      "status": "independent_display_plugin",
+      "purpose": "自然链接插件的显示行为、代码与依赖",
+      "bytes": 6103,
+      "sha256": "f3781bcb7c8067b06fe83782a8c90f42daf729b8798afe29c5ce5116604cbace"
+    },
+    {
+      "path": "资料/obsidian-link-style/examples/链接样式示例.md",
+      "kind": "copied_existing_file",
+      "source": "obsidian-link-style/examples/链接样式示例.md",
+      "status": "independent_display_plugin",
+      "purpose": "自然链接插件的阅读示例",
+      "bytes": 1534,
+      "sha256": "1b38c74c63a83aa80a840ec2056b02c648e0c24175e2b36c73e19a9cbe9b8737"
+    },
+    {
+      "path": "资料/obsidian-link-style/examples/链接跳转目标.md",
+      "kind": "copied_existing_file",
+      "source": "obsidian-link-style/examples/链接跳转目标.md",
+      "status": "independent_display_plugin",
+      "purpose": "自然链接插件的阅读示例",
+      "bytes": 296,
+      "sha256": "2396d30134bb93bd826838f5fe07205497bd6e4e7ebbbf5b3af7dbc2192c2361"
+    },
+    {
+      "path": "README.md",
+      "kind": "generated_export",
+      "purpose": "本次补充的讨论入口或命题",
+      "source": "knowledge-maintenance/tasks/2026-10-05-ai-discussion/讨论资料README.md",
+      "bytes": 11025,
+      "sha256": "79e65cb0aec9950048366ed44005222b16e1cfa658c4118800f9eff687d74165"
+    },
+    {
+      "path": "讨论命题.md",
+      "kind": "generated_export",
+      "purpose": "本次补充的讨论入口或命题",
+      "source": "knowledge-maintenance/tasks/2026-10-05-ai-discussion/讨论命题.md",
+      "bytes": 5411,
+      "sha256": "93bcf3dde372c21ab8650d31e9d247e35a31f87cffdca55a2a301b10b18e243f"
+    },
+    {
+      "path": "AGENTS.md",
+      "kind": "generated_export",
+      "purpose": "本次补充的讨论入口或命题",
+      "source": "knowledge-maintenance/tasks/2026-10-05-ai-discussion/讨论资料AGENTS.md",
+      "bytes": 679,
+      "sha256": "02dd421ff0318ac1b901326c90e4567b2369e5be10db6dd9db3a3827f34f7b57"
+    },
+    {
+      "path": ".gitignore",
+      "kind": "generated_export",
+      "purpose": "讨论资料仓库的本地运行产物排除项",
+      "source": null,
+      "bytes": 56,
+      "sha256": "c798d4bf8b689b4cc20c98bb7496fe1a19cec7632f76446af8b5cb9139af9076"
+    },
+    {
+      "path": ".gitattributes",
+      "kind": "generated_export",
+      "purpose": "保存材料原始字节，避免自动转换换行",
+      "source": null,
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "资料/Git基线/第一天00/1.1 神经网络如何“学习”.md",
+      "kind": "generated_export",
+      "purpose": "从原试点提交只读导出的初始正文",
+      "source": {
+        "repository": "mfa114514/wiki-flow-pilot",
+        "commit": "224fc771f170f609415409c150ba78a8ed9c66f0",
+        "path": "1.1 神经网络如何“学习”.md"
+      },
+      "bytes": 13151,
+      "sha256": "46cf081c09ab7c588470d15803b1e57ca7b8417a8c60c14941db24459d9a887e"
+    },
+    {
+      "path": "资料/Git基线/第一天00/1.2 从一次step到完整训练过程.md",
+      "kind": "generated_export",
+      "purpose": "从原试点提交只读导出的初始正文",
+      "source": {
+        "repository": "mfa114514/wiki-flow-pilot",
+        "commit": "224fc771f170f609415409c150ba78a8ed9c66f0",
+        "path": "1.2 从一次step到完整训练过程.md"
+      },
+      "bytes": 15758,
+      "sha256": "05487df855af4ee5ae0f27c1bec001008bf952d3dd903e57861e0e116dae995a"
+    },
+    {
+      "path": "资料/Git基线/第一天00/1.3 logit 概率 交叉熵.md",
+      "kind": "generated_export",
+      "purpose": "从原试点提交只读导出的初始正文",
+      "source": {
+        "repository": "mfa114514/wiki-flow-pilot",
+        "commit": "224fc771f170f609415409c150ba78a8ed9c66f0",
+        "path": "1.3 logit 概率 交叉熵.md"
+      },
+      "bytes": 14793,
+      "sha256": "9466b04bcd7d340226ac306e2b9de327dc45b4bf4c01afe375e44f176e225267"
+    },
+    {
+      "path": "资料/Git基线/README.md",
+      "kind": "generated_export",
+      "purpose": "说明原试点提交、当前状态与新资料仓库历史的区别",
+      "source": null,
+      "bytes": 1244,
+      "sha256": "d75bb75d998043b15e75d07f8ae73dce3c1cff3403964315299c65c1d45dcdcf"
+    }
+  ]
+}
